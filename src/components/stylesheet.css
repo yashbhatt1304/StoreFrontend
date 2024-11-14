@@ -1,0 +1,97 @@
+.nav{
+    background-color: #8BFF00;
+    color: white;
+    height: 50px;
+}
+
+.nav-details{
+    color: inherit;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0%;
+    
+}
+
+.nav-title{
+    color:inherit;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Sofia", sans-serif;
+}
+
+.home {
+    text-align: center;
+    width: 18rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.footer {
+    text-align: center;
+    background-color: #8BFF00;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    font-family: "Sofia", sans-serif;
+}
+
+.home-list {
+    border: solid black;
+}
+
+h6{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.new-order {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.submit {
+    height: 30px;
+    width: 6rem;
+    background-color: #8BFF00;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+    border: 0;
+    border-radius: 20px;
+}
+
+.instructions {
+    font-weight: 200;
+    font-style: italic;
+    font-size: small;
+}
+
+.user-info {
+    font-weight: 200;
+    color: gray;
+    width: 12rem;
+}
+
+.after-submit {
+    margin-top: 40px;
+    font-size: small;
+}
+
+.error {
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+    font-size: small;
+}
