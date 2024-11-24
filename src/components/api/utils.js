@@ -1,6 +1,7 @@
 // const API_BASE = "https://62b22f4d20cad3685c8ac617.mockapi.io/inventory/v1/";
-const API_BASE = "http://localhost:3002/"
-
+// const API_BASE = "http://localhost:3002/"
+const API_BASE = process.env.REACT_APP_MIDDLEWARE_API || "http://localhost:3002/";
+console.log(API_BASE)
 /**
  * Parses JSON responses for easier consumption.
  *
